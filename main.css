@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+.container > div {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead; */
+}
+
+.container > div > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
