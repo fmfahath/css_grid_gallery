@@ -5,3 +5,11 @@
     grid-auto-rows: 100px;
     grid-gap: 3px;
 }
+
+.vertical{
+    grid-row: span 2;
+}
+
+.horizontal{
+    grid-column: span 2;
+}
